@@ -31,7 +31,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         if ($senha = $row['senha']) {
             // Senha correta, login bem-sucedido
             // Redirecionar para index.php
-            header("Location: ../index.php");
+            header("Location: ../home.php");
             exit; // Importante: encerrar o script após o redirecionamento
         } else {
             // Senha incorreta
